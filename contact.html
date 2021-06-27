@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+body 
+{
+  background-image:url(background2.jpg);
+   font-family: Arial, Helvetica, sans-serif;
+
+}
+.lastline h3{
+   height:80px;
+   bottom:80px;
+   color:red;
+}
+
+.flip-card 
+{
+  
+   float:left;
+  
+   background-color: transparent;
+ 
+   width: 300px;
+  
+   height: 400px;
+  
+   perspective: 1000px;
+
+}
+
+
+.flip-card-inner
+{
+  
+    position: relative;
+  width: 100%;
+  height: 100%;
+
+    text-align: center;
+  transition: transform 0.6s;
+ 
+    transform-style: preserve-3d;
+ 
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+}
+
+
+.flip-card:hover .flip-card-inner
+{
+  
+   transform: rotateY(180deg);
+
+}
+
+
+.flip-card-front, .flip-card-back 
+{
+  
+   position:    absolute;
+  width: 100%;
+ 
+   height: 100%;
+  -webkit-backface-visibility: hidden;
+
+   backface-visibility: hidden;
+
+}
+
+ 
+.flip-card-front 
+{
+  
+background-color: #bbb;
+ 
+ color: black;
+}
+
+
+.flip-card-back 
+{
+  
+background-color: #2980b9;
+
+ color: white;
+ 
+ transform: rotateY(180deg);
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+
+<Center>
+<div class="flip-card">
+  
+<div class="flip-card-inner">
+ 
+<div class="flip-card-front">
+     
+<img src="Rishitha1.jpeg" 
+alt="Avatar" alt="center" style="width:300px;height:300px;">
+   
+</div>
+   
+<div class="flip-card-back">
+     
+<h1>RISHITHA</h1> 
+      
+<p>DEVELOPER</p> 
+      
+<p>18h61a0547@cvsr.ac.in</p>
+<p><b>Intuitive Design</b></br></br>
+Maeel's simple & beautiful interface is designed to get out the way for serious email crunching. There's no learning curve - you'll be super productive the minute you start using it.</p>
+
+
+ 
+</div>
+  
+</div>
+
+</div>
+
+
+<div class="flip-card">
+  
+<div class="flip-card-inner">
+    
+<div class="flip-card-front">
+      
+<img src="Nikitha.jpeg" 
+alt="Avatar" style="width:300px;height:300px;">
+    
+</div>
+    
+<div class="flip-card-back">
+      
+<h1>NIKITHA</h1> 
+      
+<p>DEVELOPER</p> 
+      
+<p>18h61a0548@cvsr.ac.in</p>
+    
+</div>
+  
+</div>
+
+</div>
+
+</center>
+<div class="lastline">
+<h1 align="center">we hope you enjoy your stay and please don't hesitate to contact us if you have a question.</h1>
+</div>
+</body>
+
+</html>
